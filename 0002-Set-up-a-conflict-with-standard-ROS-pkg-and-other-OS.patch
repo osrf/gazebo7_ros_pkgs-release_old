@@ -1,0 +1,23 @@
+From b9c64459e8ab5fa68c7061411f1d470d5f3f1773 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Tue, 26 Jan 2016 19:20:55 +0100
+Subject: [PATCH 2/2] Set up a conflict with standard ROS pkg and other OSRF
+ wrappers
+
+---
+ debian/control.em | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/debian/control.em b/debian/control.em
+index f7f3c42..fc40d6d 100644
+--- a/debian/control.em
++++ b/debian/control.em
+@@ -11,4 +11,5 @@ Standards-Version: 3.9.2
+ Package: @(Package.replace('gazebo-','gazebo7-'))
+ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
++Conflicts: @(Package), @(Package)-current, @(Package.replace('gazebo-','gazebo3-')), @(Package.replace('gazebo-','gazebo4-')), @(Package.replace('gazebo-','gazebo5-')), @(Package.replace('gazebo-','gazebo6-'))
+ Description: @(Description)
+-- 
+1.9.1
+

@@ -1,4 +1,4 @@
-From dc6e517a7b7fe5fc330d99d83093a242d66f7e59 Mon Sep 17 00:00:00 2001
+From a2dac09ce3703e30441fefefecae193470888754 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Tue, 26 Jan 2016 19:20:55 +0100
 Subject: [PATCH 1/2] Patch name to release -7 version
@@ -21,5 +21,5 @@ index 175af20..f7f3c42 100644
  Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
  Description: @(Description)
 -- 
-1.9.1
+2.5.0
 

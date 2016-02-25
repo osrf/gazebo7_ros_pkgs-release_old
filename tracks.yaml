@@ -96,7 +96,7 @@ tracks:
       :{release_inc}
     devel_branch: jade-devel
     last_version: 2.5.1
-    name: gazebo_ros_pkgs
+    name: gazebo7_ros_pkgs
     patches: null
     release_inc: '1'
     release_repo_url: null

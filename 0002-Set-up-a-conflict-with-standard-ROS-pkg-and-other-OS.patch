@@ -1,4 +1,4 @@
-From 0e8915ed9103d97553c046ac821c9241773dacbc Mon Sep 17 00:00:00 2001
+From eb0d13800e2a5637b2a7a73c6b97ba46670fb432 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Tue, 26 Jan 2016 19:20:19 +0100
 Subject: [PATCH 2/2] Set up a conflict with standard ROS pkg and other OSRF
@@ -19,5 +19,5 @@ index f7f3c42..fc40d6d 100644
 +Conflicts: @(Package), @(Package)-current, @(Package.replace('gazebo-','gazebo3-')), @(Package.replace('gazebo-','gazebo4-')), @(Package.replace('gazebo-','gazebo5-')), @(Package.replace('gazebo-','gazebo6-'))
  Description: @(Description)
 -- 
-1.9.1
+2.5.0
 
